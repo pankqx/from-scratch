@@ -1,0 +1,41 @@
+/* 1. Global Page Styles & Background */
+body {
+    background-color: #101011; /* Soft background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean font family */
+    color: #2d3748; /* General text colour */
+    margin: 0;
+    padding: 40px 20px; /* 3. Spacing around the content container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Heading Styling */
+h1, h2, h3 {
+    color: #1a365d; /* Distinct heading colour */
+    margin-top: 0;
+}
+
+/* 4. The Card Container */
+.card {
+    background-color: #a52020;
+    padding: 32px; /* Space inside the card */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); /* Subtle, modern shadow */
+    max-width: 450px;
+    width: 100%;
+}
+
+/* 5. Neat List Styling */
+ul {
+    padding-left: 20px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Spacing between list items */
+    line-height: 1.6; /* Improves readability */
+}
